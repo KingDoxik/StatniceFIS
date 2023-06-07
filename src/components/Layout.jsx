@@ -22,6 +22,10 @@ export const navigation = [
         title: 'Struktura vědecké práce',
         href: '/docs/struktura-vedecke-prace',
       },
+      {
+        title: 'Bibliografická data a reference',
+        href: '/docs/bibliografie',
+      },
     ],
   },
 ]
