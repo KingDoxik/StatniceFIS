@@ -43,6 +43,10 @@ export const navigation = [
         title: 'Aplikační nástroje internetu - email, ssh, WWW',
         href: '/docs/email-ssh-www',
       },
+      {
+        title: 'Základy webových informačních technologií',
+        href: '/docs/zaklady-www',
+      },
     ],
   },
 ]
