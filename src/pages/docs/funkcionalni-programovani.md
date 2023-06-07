@@ -3,11 +3,11 @@ title: Prvky funkcionálního programování aplikované např. v Javě
 description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 
-### Funkcionální programování
+## Funkcionální programování
 
 Funkcionální programování je paradigma, které se zaměřuje na vytváření programů pomocí funkcí a jejich manipulace. Na rozdíl od imperativního programování, kde je důraz kladen na změnu stavu a sekvenci instrukcí, se ve funkcionálním programování klade důraz na výpočetní procesy vykonávané pomocí vyhodnocování funkcí.
 
-#### Hlavní rysy funkcionálního programování:
+### Hlavní rysy funkcionálního programování:
 
 1. **Čisté funkce**: Funkce ve funkcionálním programování jsou čisté, což znamená, že pro stejný vstup vrací vždy stejný výstup a nemají žádné vedlejší efekty. To usnadňuje testování a zlepšuje předvídatelnost programu.
 
@@ -17,7 +17,7 @@ Funkcionální programování je paradigma, které se zaměřuje na vytváření
 
 4. **Vysoká úroveň abstrakce**: Funkcionální programování se snaží poskytnout vyšší úroveň abstrakce, což umožňuje programátorům se soustředit na samotný problém a ne na implementační detaily.
 
-#### Výhody funkcionálního programování:
+### Výhody funkcionálního programování:
 
 - **Čitelnost a srozumitelnost**: Funkcionální programování se zaměřuje na vyjádření programu pomocí funkcí, což může vést k srozumitelnějšímu a čitelnějšímu kódu.
 
@@ -31,7 +31,7 @@ Funkcionální programování je paradigma, které se zaměřuje na vytváření
 
 Funkcionální programování nabízí různé výhody, které mohou zlepšit produktivitu programátorů a kvalitu výsledného kódu. Je však důležité si uvědomit, že ne všechny problémy jsou nejlépe řešitelné pomocí tohoto paradigmatu a správná volba paradigmatu závisí na konkrétním problému a kontextu.
 
-### Lambda funkce v Javě
+## Lambda funkce v Javě
 
 Lambda kalkul je formální systém, který se používá pro popis výpočtů a manipulaci s funkcemi. Při práci s lambda kalkulem se nepracuje s objekty, ale s funkcemi samotnými. Tento přístup může mít několik výhod:
 

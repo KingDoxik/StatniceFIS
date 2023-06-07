@@ -2,5 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/": "pages/index.js",
+  "/docs/aplikace-objektoveho-paradigma": "pages/docs/aplikace-objektoveho-paradigma.js",
+  "/docs/vyvoj-rizeny-testy": "pages/docs/vyvoj-rizeny-testy.js",
+  "/docs/funkcionalni-programovani": "pages/docs/funkcionalni-programovani.js",
   "/docs/ip-tcp-udp-icmp-dns": "pages/docs/ip-tcp-udp-icmp-dns.js"
 }

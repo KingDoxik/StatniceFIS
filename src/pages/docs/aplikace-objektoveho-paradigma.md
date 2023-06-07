@@ -3,14 +3,14 @@ title: Principy a aplikace objektového paradigma
 description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 
-### Objekt
+## Objekt
 
 - Abstrakce z reality
 - Spojení dat a činností
 - Data jsou údaje, proměnné nebo datové atributy
 - Činnosti jsou metody, které s daty pracují
 
-### Obecné objektové vlastnosti
+## Obecné objektové vlastnosti
 
 - Používání abstrakce
 - Definování tříd objektů
@@ -20,13 +20,13 @@ description: Quidem magni aut exercitationem maxime rerum eos.
 - Dědičnost
 - Polymorfismus
 
-### Abstrakce
+## Abstrakce
 
 - Základní vlastnost objektů
 - Zjednodušení skutečnosti při programování
 - Práce s důležitými daty
 
-### Třída a instance
+## Třída a instance
 
 - Třída je obecný popis objektu
 - Obsahuje datové atributy (popisují stav objektu) a metody (definují činnosti)
@@ -38,12 +38,12 @@ description: Quidem magni aut exercitationem maxime rerum eos.
 - Datové atributy jsou informace o každé instanci
 - Metody jsou činnosti, které lze s instancemi provádět
 
-### Komunikace - volání metod, posílání zpráv
+## Komunikace - volání metod, posílání zpráv
 
 - Aplikace obsahuje několik tříd
 - Vytvářejí se instance těchto tříd a volají se jejich metody
 
-### Zapouzdření
+## Zapouzdření
 
 - Vlastnosti a schopnosti souvisejícího objektu jsou spojeny
 - Kód a zpracovaná data jsou sdruženy
@@ -51,20 +51,20 @@ description: Quidem magni aut exercitationem maxime rerum eos.
 - Usnadňuje budoucí modifikace
 - Objekt rozhoduje o svém stavu, datové atributy nejsou přístupné zvenku
 
-### Ukrývání implementace
+## Ukrývání implementace
 
 - `private`: Přístupné pouze z metod instance
 - Bez uvedení modifikátoru: Přístupné v rámci balíčku
 - `protected`: Přístupné v rámci balíčku a potomků v dědičné hierarchii
 - `public`: Přístupné z jakékoli jiné třídy
 
-### Dědičnost
+## Dědičnost
 
 - Forma znovupoužitelnosti
 - Potomek absorbuje atributy a dědí metody od předka
 - Potomek může mít vlastní potomky, vzniká hierarchie tříd
 
-### Polymorfismus
+## Polymorfismus
 
 - Různý kód se provádí při stejném volání
 
