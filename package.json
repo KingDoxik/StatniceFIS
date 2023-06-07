@@ -16,6 +16,7 @@
     "@markdoc/next.js": "0.1.6",
     "@sindresorhus/slugify": "^2.1.0",
     "@tailwindcss/typography": "^0.5.7",
+    "@vercel/analytics": "^1.0.1",
     "autoprefixer": "^10.4.12",
     "clsx": "^1.2.1",
     "fast-glob": "^3.2.12",
@@ -36,6 +37,7 @@
     "eslint-config-next": "13.0.2",
     "prettier": "^2.8.7",
     "prettier-plugin-tailwindcss": "^0.2.6",
+    "prismjs": "^1.29.0",
     "sharp": "^0.32.0"
   }
 }

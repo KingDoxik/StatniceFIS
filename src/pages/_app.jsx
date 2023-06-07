@@ -5,6 +5,7 @@ import { Layout } from '@/components/Layout'
 
 import 'focus-visible'
 import '@/styles/tailwind.css'
+import { Analytics } from '@vercel/analytics/react'
 
 function getNodeText(node) {
   let text = ''
@@ -69,6 +70,7 @@ export default function App({ Component, pageProps }) {
       </Head>
       <Layout title={title} tableOfContents={tableOfContents}>
         <Component {...pageProps} />
+        <Analytics />
       </Layout>
     </>
   )

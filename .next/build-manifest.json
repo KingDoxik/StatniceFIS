@@ -15,11 +15,6 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
-    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -30,25 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/docs/aplikace-objektoveho-paradigma": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/docs/aplikace-objektoveho-paradigma.js"
-    ],
-    "/docs/funkcionalni-programovani": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/docs/funkcionalni-programovani.js"
-    ],
     "/docs/ip-tcp-udp-icmp-dns": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/docs/ip-tcp-udp-icmp-dns.js"
     ],
-    "/docs/vyvoj-rizeny-testy": [
+    "/docs/navrhove-vzory": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/docs/vyvoj-rizeny-testy.js"
+      "static/chunks/pages/docs/navrhove-vzory.js"
     ]
   },
   "ampFirstPages": []

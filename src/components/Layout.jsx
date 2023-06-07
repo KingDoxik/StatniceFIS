@@ -66,6 +66,23 @@ export const navigation = [
       },
     ],
   },
+  {
+    title: 'Softwarové inženýrství',
+    links: [
+      {
+        title: 'UML modelování',
+        href: '/docs/uml-modelovani',
+      },
+      {
+        title: 'Návrhové vzory',
+        href: '/docs/navrhove-vzory',
+      },
+      {
+        title: 'Metodiky budování IS',
+        href: '/docs/metodiky-budovani-is',
+      },
+    ],
+  },
 ]
 
 function GitHubIcon(props) {
