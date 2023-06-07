@@ -3,5 +3,7 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
+  "/docs/predicting-user-behavior": "pages/docs/predicting-user-behavior.js",
+  "/docs/basics-of-time-travel": "pages/docs/basics-of-time-travel.js",
   "/docs/understanding-caching": "pages/docs/understanding-caching.js"
 }
