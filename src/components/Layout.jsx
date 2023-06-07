@@ -96,6 +96,19 @@ export const navigation = [
       },
     ],
   },
+  {
+    title: 'Základy datové analytiky',
+    links: [
+      {
+        title: 'Přidaná hodnota dat pro business',
+        href: '/docs/pridana-hodnota-dat',
+      },
+      {
+        title: 'Data, kvalita dat',
+        href: '/docs/data-kvalita-dat',
+      },
+    ],
+  },
 ]
 
 function GitHubIcon(props) {

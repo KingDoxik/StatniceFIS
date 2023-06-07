@@ -1,0 +1,6 @@
+---
+title: Přidaná hodnota dat pro business
+description: Quidem magni aut exercitationem maxime rerum eos.
+---
+
+Společnosti uchovávají velké množství dat ze systémů, které používají (ERP, CRM, SCM…). Tato data jsou zpravidla uložena v transakčních databázích (OLTP– OnLine Transaction Processing databáze). Ty jsou navrženy tak, aby umožňovaly ukládání velkého množství dat, jejich snadnou úpravu a mazání. Pokud ale dojde na získávání souhrnných informací, jsou transakční databáze pro tento účel naprosto nevhodné. Dalším problémem je, že analytická data, která potřebuje management firmy, pocházejí často z různých systémů a jsou tedy uloženy v různých databázích s odlišnou strukturou, což činí jejich získání ještě obtížnějším. Technologie BI dokáží integrovat data ze všech oblastí podnikové činnosti a poskytnout potřebné informace v požadované struktuře. Ze získaných údajů se zpracovávají nové údaje, které nejsou zřejmé na první pohled. Ty jsou poté v čitelné podobě reprezentované manažerům, kteří na základě nich řídí své strategické rozhodování. Narozdíl od ostatních komponent ERP je BI určen pro vrcholový management. BI pracuje s daty v reálném čase - na základě dotazu dostane uživatel odpověď během několika vteřin.
