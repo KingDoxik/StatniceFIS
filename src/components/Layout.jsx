@@ -39,6 +39,10 @@ export const navigation = [
         title: 'Základní protokoly internetu IP, TCP, UDP, ICMP, DNS',
         href: '/docs/ip-tcp-udp-icmp-dns',
       },
+      {
+        title: 'Aplikační nástroje internetu - email, ssh, WWW',
+        href: '/docs/email-ssh-www',
+      },
     ],
   },
 ]
