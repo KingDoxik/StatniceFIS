@@ -26,6 +26,10 @@ export const navigation = [
         title: 'Bibliografická data a reference',
         href: '/docs/bibliografie',
       },
+      {
+        title: 'Výzkum kvalitativní a kvantitativní',
+        href: '/docs/vyzkum',
+      },
     ],
   },
 ]

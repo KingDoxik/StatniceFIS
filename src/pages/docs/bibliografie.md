@@ -3,10 +3,6 @@ title: Bibliografická data a reference
 description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 
-Norma pro strukturu odborné práce – IMRaD (Introduction, Methods, Results, Discussion)
-
----
-
 ## Prameny vědeckých informací
 
 Dvě základní skupiny:

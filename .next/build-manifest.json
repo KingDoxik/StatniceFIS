@@ -25,10 +25,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/docs/struktura-vedecke-prace": [
+    "/docs/bibliografie": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/docs/struktura-vedecke-prace.js"
+      "static/chunks/pages/docs/bibliografie.js"
+    ],
+    "/docs/vyzkum": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/docs/vyzkum.js"
     ]
   },
   "ampFirstPages": []
