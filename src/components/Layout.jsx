@@ -49,6 +49,23 @@ export const navigation = [
       },
     ],
   },
+  {
+    title: 'Programování v Javě',
+    links: [
+      {
+        title: 'Principy a aplikace objektového paradigma',
+        href: '/docs/aplikace-objektoveho-paradigma',
+      },
+      {
+        title: 'Vývoj řízený testy',
+        href: '/docs/vyvoj-rizeny-testy',
+      },
+      {
+        title: 'Prvky funkcionálního programování aplikované např. v Javě',
+        href: '/docs/funkcionalni-programovani',
+      },
+    ],
+  },
 ]
 
 function GitHubIcon(props) {
