@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"../components/Search.jsx -> @/markdoc/search.mjs":{id:7292,files:["static/chunks/292.b80ac236b1aa095f.js"]}};
