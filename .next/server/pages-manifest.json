@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/docs/navrhove-vzory": "pages/docs/navrhove-vzory.js",
-  "/docs/ip-tcp-udp-icmp-dns": "pages/docs/ip-tcp-udp-icmp-dns.js"
+  "/docs/metodiky-budovani-is": "pages/docs/metodiky-budovani-is.js",
+  "/docs/navrhove-vzory": "pages/docs/navrhove-vzory.js"
 }

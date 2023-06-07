@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/docs/ip-tcp-udp-icmp-dns": [
+    "/docs/metodiky-budovani-is": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/docs/ip-tcp-udp-icmp-dns.js"
+      "static/chunks/pages/docs/metodiky-budovani-is.js"
     ],
     "/docs/navrhove-vzory": [
       "static/chunks/webpack.js",
