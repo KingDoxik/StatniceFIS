@@ -1,8 +1,8 @@
 {
   "../components/Search.jsx -> @/markdoc/search.mjs": {
-    "id": 7292,
+    "id": "../components/Search.jsx -> @/markdoc/search.mjs",
     "files": [
-      "static/chunks/292.b80ac236b1aa095f.js"
+      "static/chunks/src_markdoc_search_mjs.js"
     ]
   }
 }

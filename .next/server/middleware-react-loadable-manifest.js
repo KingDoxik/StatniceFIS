@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST={"../components/Search.jsx -> @/markdoc/search.mjs":{id:7292,files:["static/chunks/292.b80ac236b1aa095f.js"]}};
+self.__REACT_LOADABLE_MANIFEST={"../components/Search.jsx -> @/markdoc/search.mjs":{"id":"../components/Search.jsx -> @/markdoc/search.mjs","files":["static/chunks/src_markdoc_search_mjs.js"]}}

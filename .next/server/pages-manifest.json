@@ -1,26 +1,7 @@
 {
   "/_app": "pages/_app.js",
-  "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/docs/basics-of-time-travel": "pages/docs/basics-of-time-travel.js",
-  "/docs/cacheadvance-flush": "pages/docs/cacheadvance-flush.js",
-  "/docs/cacheadvance-predict": "pages/docs/cacheadvance-predict.js",
-  "/docs/cacheadvance-regret": "pages/docs/cacheadvance-regret.js",
-  "/docs/cacheadvance-revert": "pages/docs/cacheadvance-revert.js",
-  "/docs/compile-time-caching": "pages/docs/compile-time-caching.js",
-  "/docs/design-principles": "pages/docs/design-principles.js",
-  "/docs/architecture-guide": "pages/docs/architecture-guide.js",
-  "/docs/introduction-to-string-theory": "pages/docs/introduction-to-string-theory.js",
-  "/docs/installation": "pages/docs/installation.js",
-  "/docs/neuralink-integration": "pages/docs/neuralink-integration.js",
-  "/docs/temporal-paradoxes": "pages/docs/temporal-paradoxes.js",
-  "/docs/predictive-data-generation": "pages/docs/predictive-data-generation.js",
-  "/docs/predicting-user-behavior": "pages/docs/predicting-user-behavior.js",
-  "/docs/how-to-contribute": "pages/docs/how-to-contribute.js",
-  "/docs/testing": "pages/docs/testing.js",
-  "/docs/understanding-caching": "pages/docs/understanding-caching.js",
-  "/docs/writing-plugins": "pages/docs/writing-plugins.js",
-  "/docs/the-butterfly-effect": "pages/docs/the-butterfly-effect.js",
+  "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/404": "pages/404.html"
+  "/docs/understanding-caching": "pages/docs/understanding-caching.js"
 }
