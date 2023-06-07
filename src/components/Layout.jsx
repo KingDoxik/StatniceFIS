@@ -32,6 +32,15 @@ export const navigation = [
       },
     ],
   },
+  {
+    title: 'Informační a komunikační technologie',
+    links: [
+      {
+        title: 'Základní protokoly internetu IP, TCP, UDP, ICMP, DNS',
+        href: '/docs/ip-tcp-udp-icmp-dns',
+      },
+    ],
+  },
 ]
 
 function GitHubIcon(props) {

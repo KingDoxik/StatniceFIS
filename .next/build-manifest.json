@@ -25,15 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/docs/bibliografie": [
+    "/docs/ip-tcp-udp-icmp-dns": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/docs/bibliografie.js"
-    ],
-    "/docs/vyzkum": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/docs/vyzkum.js"
+      "static/chunks/pages/docs/ip-tcp-udp-icmp-dns.js"
     ]
   },
   "ampFirstPages": []
