@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/docs/metodiky-budovani-is": "pages/docs/metodiky-budovani-is.js",
-  "/docs/navrhove-vzory": "pages/docs/navrhove-vzory.js"
+  "/docs/databaze": "pages/docs/databaze.js",
+  "/docs/databazove-jazyky": "pages/docs/databazove-jazyky.js"
 }

@@ -83,6 +83,19 @@ export const navigation = [
       },
     ],
   },
+  {
+    title: 'Databáze',
+    links: [
+      {
+        title: 'Analýza, návrh a realizace databáze + datove modelovani',
+        href: '/docs/databaze',
+      },
+      {
+        title: 'Databázové jazyky',
+        href: '/docs/databazove-jazyky',
+      },
+    ],
+  },
 ]
 
 function GitHubIcon(props) {
