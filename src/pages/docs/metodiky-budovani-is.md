@@ -36,6 +36,40 @@ Deset hlavních principů agilních metodik zahrnuje:
 9. Jednoduchost řešení a minimalizace nevykonané práce
 10. Samoorganizující se týmy
 
+Rigorózní a agilní metodiky jsou dva odlišné přístupy k řízení projektů a vývoji software. Zde jsou hlavní rozdíly mezi těmito metodikami:
+
+Rigorózní metodiky:
+
+1. Vodopádový model: Vodopádový model je jedním z nejznámějších příkladů rigorózních metodik. Projekt je rozdělen do sekvenčních fází, jako je analýza, návrh, implementace, testování a nasazení. Každá fáze musí být dokončena, než se přejde na další.
+
+   - Významné vlastnosti: Plánování a dokumentace jsou důležité, silná kontrola kvality, přísné dodržování plánu.
+
+2. Spiralový model: Spiralový model kombinuje aspekty vodopádu a prototypování. Projekt je rozdělen do opakujících se cyklů, které se nazývají spirály. Každá spirála zahrnuje činnosti analýzy rizik, vývoje, testování a hodnocení.
+   - Významné vlastnosti: Zahrnuje analýzu a řízení rizik, iterativní přístup, silná kontrola a hodnocení.
+
+Agilní metodiky:
+
+1. Scrum: Scrum je jednou z nejpopulárnějších agilních metodik. Projekt je rozdělen do krátkých iterací nazývaných "sprinty", které trvají obvykle 1-4 týdny. Na začátku každého sprintu je vytvořen backlog úkolů a tým pracuje na jejich splnění.
+
+   - Významné vlastnosti: Flexibilita, silná komunikace a spolupráce, adaptabilita na změny.
+
+2. Kanban: Kanban je založen na vizuálním zobrazení práce na "kanbanové desce". Úkoly jsou reprezentovány kartami a posouvají se po fázích desky (např. "čeká na zpracování", "v procesu", "hotovo").
+   - Významné vlastnosti: Vizuální sledování práce, omezení pracovního postupu, pružnost v prioritizaci úkolů.
+
+Hlavní rozdíly mezi rigorózními a agilními metodikami:
+
+1. Přístup k plánování: Rigorózní metodiky se zaměřují na předem stanovený plán a dodržování jeho fází, zatímco agilní metodiky klade důraz na flexibilitu a schopnost reagovat na změny.
+
+2. Flexibilita: Rigorózní metodiky mají tendenci být méně flex
+
+ibilní, zatímco agilní metodiky se přizpůsobují měnícím se podmínkám a požadavkům.
+
+3. Spolupráce a komunikace: Agilní metodiky kladou důraz na týmovou spolupráci a komunikaci, zatímco rigorózní metodiky se více zaměřují na individuální úkoly a dodržování postupů.
+
+4. Změnový management: Agilní metodiky jsou lépe vybaveny pro řízení změn a rizik, zatímco rigorózní metodiky se spíše zaměřují na minimalizaci rizik a dodržování plánu.
+
+Je důležité si uvědomit, že existuje mnoho různých metodik v rámci každé kategorie, a každá z nich má své vlastní specifické vlastnosti a přístupy k řízení projektů a vývoji software.
+
 ## Dynamic Systems Development Method (DSDM)
 
 DSDM kombinuje přístup rychlého vývoje aplikací (RAD) s objektově orientovaným vývojem. Metodika DSDM je postavena na devíti principech, které zahrnují:
