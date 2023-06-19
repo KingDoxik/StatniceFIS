@@ -3,6 +3,33 @@ title: Analýza, návrh a realizace databáze + datove modelovani
 description: Quidem magni aut exercitationem maxime rerum eos.
 ---
 
+## Obecné pojmy
+
+Databáze je organizovaný systém souborů pro ukládání dat. Tyto soubory jsou mezi sebou navzájem
+propojeny. V širším smyslu jsou součástí databáze i softwarové prostředky, které umožňují manipulaci
+s uloženými daty a přístup k nim. Tento software se v české odborné literatuře nazývá systém řízení
+báze dat. Běžně se označením databáze myslí jak uložená data, tak i software.
+
+## Dělení databází podle typu
+
+[Hezké Fireship video co popisuje jednotlivé typy databází](https://www.youtube.com/watch?v=W2Z7fbCLSTw).
+
+Databáze se dají dělit podle typu a způsobu ukládaní dat na 3 hlavní kategorie.
+
+### Relační databáze
+
+Nejčasteji používaný typ databází. Data jsou modelována pomocí relačního modelu, tedy tabulek s fixní strukturou jednotlivých záznamů, které jsou navzájem propojené pomocí relací.  V tomto typu databáze se používá relační model, což je giga based matematickej koncept ze 70 let, který je tvořen množinami (tabulkami), přičemž každá tabulka má svůj primární klíč (jeden nebo více atributů - composite primary key). Dále je tu koncept normalizace, který určuje pravidla, podle kterých databáze spadá do jedné z 5 normovaných form více viz kapitola o normalizaci.
+
+### NoSQL databáze
+
+NoSQL databáze nepoužívají tabulkové struktury, normalizaci a SQL (no shit), namísto toho jsou tvořeny tzv. kolekcemi, ve který jsou uložené dokumenty. Dokument je většinou komplexní objekt tvořený mnoha dílčími podobjekty. Často se pro ukládání/načítání používá JSON nebo jeho efektivnější binární verze BSON. Nejpoužívánější NoSQL databází je MongoDB, CouchDB, Firebase/Firestore nebo Amazon DynamoDB.
+
+Výhodou oproti relačním databázím je možnost horizontálního škálování (přidání více malých serverů) naproti vertikálnímu škálování u relačních databází (zvýšení výkonu jednoho serveru).
+
+### Specializované Databáze
+
+Poslední, velice obecnou kategorií jsou specializované databáze. Jedná se často o databáze, které řeší nějaký konkrétní problém a nehodí se pro obecné use cases jako RDBMS nebo NoSQL. Mezi nejvýznamnější podtypy patří například: Graph Databases (databáze co nativně podporují grafové struktury pro modelování komplexních sítí) - například Neo4J, Key-Value databáze, které ukládají vždy jednu hodnotu pro daný klíč - například Redis, Memcached. Key-Value se většinou používá jako cache nad “tradiční” databází spíš než jako přímo databáze samotná.
+
 ## Konceptuální schéma
 
 („nezávislý“) model obsahu datové základny na konceptuální úrovni (tj. nezatížený jakýmikoliv implementačními a technologickými implementacemi)
@@ -22,9 +49,51 @@ description: Quidem magni aut exercitationem maxime rerum eos.
   Popis vlastní realizace systému v konkrétním implementačním prostředí (doplnění i typu indexu, velikosti, rozmístění pracovního prostoru apod.)
   Využívá se taktéž metoda normalizace dat
 
+Všechny RDBMS by měly být **ACID**:
+- **A**tomicity defines all the elements that make up a complete database transaction
+- **C**onsistency defines the rules for maintaining data points in a correct state after a transaction
+- **I**solation keeps the effect of a transaction invisible to others until it is committed, to avoid confu-
+sion
+- **D**urability ensures that data changes become permanent once the transaction is committed.
+
 ### Návrh databáze
 
-Spočívá v určení entit (tabulek), klíčů (referenční integrita), vztahů (relace), dodržení normálních forem, indexů.
+Spočívá v určení entit (tabulek), klíčů (referenční integrita), vztahů (relace), dodržení normálních forem, indexů. Pro zajištění kvality návrhu relační databáze se používá normalizace, podle které se databáze řadí do jedné z pěti normalních forem.
+
+### Normalizace
+Normalizace je technika používaná při návrhu relačních databází tak, aby byla v souladu s takzvanými normálními formami, nedocházelo k duplicitě dat a byla zajištěna jejich konzistence. Rozlišujeme celkem 5 normálních forem, čím vyšší stupeň normalizace, tím větší lze klást na databázi
+záruky ohledně redundance a konzistence dat.
+
+[Hezký video o normalizaci](https://www.youtube.com/watch?v=GFQaEYEc8_8).
+
+#### 1NF - první normální forma
+
+V databázi existují pouze tabulky, které obsahují atributy, které jsou dále nedělitelné a každá tabulka obsahuje primární klíč, pomocí kterého je možné identifikovat konkrétní záznam.
+ 
+#### 2NF - druhá normální forma
+
+1NF + každý atribut co není (součástí) primárního klíče musí být na klíči závislý. Tj. pokud by byla tabulka s galerií a u každé galerie byl uložen kromě ID autora i počet všech jeho galerií, tak se jedná o porušení 2NF, protože tento atribut je závislý na ID uživatele a nikoliv na ID galerie, což je primární
+klíč této tabulky.
+
+Fancy slovíčko pro dělení tabulek aby všechny atributy byly závislý pouze na primárním klíči je **dekompozice**.
+
+#### 3NF - třetí normální forma
+
+2NF + tabulka neobsahuje tranzitivní závislosti. Tj. neukládá atributy tabulek se kterými má vztah. V případě galerie by 3NF porušilo, pokud by se ke galerii ukládalo kromě ID autora i username. Protože username je tranzitivní závislost Galerie → Uzivatel → Username.
+
+#### BCNF - Boyceho–Coddova normální forma
+
+Upravená verze 3NF, která navíc přidává 2 podmínky:
+- v relaci nesmí existovat více kandidátních klíčů
+- neexistuje takový atribut, který je společný pro všechny kandidátní klíče
+
+#### 4NF - čtvrtá normální forma
+
+BCNF + všechny relace jsou modelovány přes cizí klíče a neukládají se v tabulce jako hodnoty, pokud je vícero závislostí.
+
+#### 5NF - pátá normální forma
+
+Ultimátní forma databáze, tabulku nelze dále rozdělovat. Všechno je rozdělený na nejmenší možný celky.
 
 ### Datové modelování – činnosti
 
