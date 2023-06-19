@@ -109,6 +109,29 @@ export const navigation = [
       },
     ],
   },
+  {
+    title: 'Bezpečnost informačních systémů',
+    links: [
+      {
+        title:
+          'Kryptografie, kryptografická primitiva a protokoly, šifrování, asymetrická kryptografie',
+        href: '/docs/kryptografie',
+      },
+      {
+        title:
+          'Certifikáty, elektronické podpisy, eIDAS (podepisování a identifikace)',
+        href: '/docs/certifikaty',
+      },
+      {
+        title: 'Identifikace a autentizace, hesla, vícefaktorová autentizace',
+        href: '/docs/indetifikace',
+      },
+      {
+        title: 'Segmentace sítě a její provoz z pohledu bezpečnosti',
+        href: '/docs/segmentace',
+      },
+    ],
+  },
 ]
 
 function GitHubIcon(props) {
